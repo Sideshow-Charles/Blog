@@ -1,11 +1,11 @@
 <template>
 <div class="header-container">
   <header class="the-header">
-    <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
     <div class="logo">
       <nuxt-link to="/">FDT</nuxt-link>
     </div>
-    <div class="spacer"></div>
+    <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
+    <!-- <div class="spacer"></div> -->
     <div class="navigation-items">
       <ul class="nav-list">
         <li class="nav-item"><nuxt-link to="/posts">Blog</nuxt-link></li>
@@ -39,8 +39,9 @@ export default {
   position: fixed;
   height: 70px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  /* flex-direction: row-reverse; */
   background-color: black;
   z-index: 100;
   box-sizing: border-box;
@@ -72,6 +73,7 @@ export default {
     display: block;
   }
 }
+
 
 .nav-list {
   list-style: none;

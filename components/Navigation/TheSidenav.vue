@@ -58,7 +58,7 @@ export default {
   top: 0;
   left: 0;
   box-sizing: border-box;
-  padding: 30px;
+  padding: 150px;
   text-align: center;
 }
 
@@ -79,7 +79,7 @@ export default {
 
 .nav-item {
   margin: 20px 0;
-}
+} 
 
 .nav-item a {
   text-decoration: none;
@@ -89,8 +89,11 @@ export default {
 
 .nav-item a:hover,
 .nav-item a:active {
-  color: #fff;
-  background-color: #000;
-  width: 100%;
+  color: green;
+  /* text-decoration: 3px underline green; */
+  background-color: green;
+  padding: 0.7rem 1.2rem;
+  color: white;
+  border-radius: 10px;
 }
 </style>

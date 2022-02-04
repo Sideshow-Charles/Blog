@@ -14,11 +14,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 50%;
+  height: 40%;
   width: 35px;
   cursor: pointer;
   position: relative;
-  left: 85%;
 }
 
 @media (min-width: 768px) {
@@ -29,7 +28,7 @@
 
 .drawer-toggle .bar {
   width: 90%;
-  height: 2px;
+  height: 4px;
   background-color: white;
 }
 </style>
